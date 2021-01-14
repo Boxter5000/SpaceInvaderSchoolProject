@@ -21,7 +21,7 @@ public class BulletController : MonoBehaviour
 
     public void FixedUpdate()
     {
-        rb2d.velocity = new Vector3(0f, BulletSpeed * Time.deltaTime, 0);
+        rb2d.velocity = new Vector3(0f, BulletSpeed * Time.deltaTime, 0f);
     }
 
     IEnumerator SelfDestruct()
